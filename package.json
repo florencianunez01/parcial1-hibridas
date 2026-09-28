@@ -1,0 +1,16 @@
+{
+  "name": "parcial1-hibridas",
+  "version": "1.0.0",
+  "description": "Parcial 1 - Aplicaciones Híbridas: catálogo de skin care coreano (productos y marcas) (Express + MongoDB driver nativo)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.10.0"
+  }
+}
